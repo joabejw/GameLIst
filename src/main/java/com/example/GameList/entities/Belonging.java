@@ -18,10 +18,10 @@ public class Belonging {
 	public Belonging() {
 	}
 
-	public Belonging(Game game, GameList gameList, Integer positio) {
+	public Belonging(Game game, GameList gameList, Integer position) {
 		id.setGame(game);
 		id.setGameList(gameList);
-		this.position = positio;
+		this.position = position;
 	}
 
 	public BelongingPK getId() {
@@ -32,12 +32,12 @@ public class Belonging {
 		this.id = id;
 	}
 
-	public Integer getPositio() {
+	public Integer getPosition() {
 		return position;
 	}
 
-	public void setPositio(Integer positio) {
-		this.position = positio;
+	public void setPosition(Integer position) {
+		this.position = position;
 	}
 
 	@Override
